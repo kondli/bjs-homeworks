@@ -15,8 +15,8 @@ function calculateAverageRating(){
 }
 
 function calculateDrinkTask(){
-    let name = window.personName.value;
+    let names = window.personName.value;
     let dateOfBirthday = new Date(window.dateOfBirthday.value);
-    let drink = askDrink(name, dateOfBirthday);
+    let drink = askDrink(names, dateOfBirthday);
     window.drink.textContent = drink;
 }
